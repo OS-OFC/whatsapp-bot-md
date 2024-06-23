@@ -8,7 +8,7 @@ const {
 bot(
   {
     pattern: 'apk ?(.*)',
-    fromMe: true,
+    fromMe: false,
     desc: 'Download apk from apkmirror',
     type: 'download',
   },
